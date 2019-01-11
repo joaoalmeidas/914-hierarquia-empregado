@@ -1,5 +1,5 @@
 
-public class BaseMaisComissaoEmpregadoTeste2 {
+public class FuncionarioBaseMaisComissaoTeste {
 
 	public static void main(String[] args) {
 		

@@ -38,7 +38,7 @@ public class Funcionario {
 	
 	@Override
 	public String toString() {
-		return String.format("Dados do funcionário:\nNome: %s\nSobrenome: %s\nCPF:%s\n",
+		return String.format("\nDados do funcionário:\nNome: %s\nSobrenome: %s\nCPF:%s\n",
 				getNome(), getSobrenome(), getCpf());
 	}
 }

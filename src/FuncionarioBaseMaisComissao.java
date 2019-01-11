@@ -35,7 +35,7 @@ public class FuncionarioBaseMaisComissao extends FuncionarioComissionado {
 	@Override
 	public String toString() {
 		
-		return String.format("%s %s%n%s: %.2f", "Empregado salário base", super.toString(), "Salário Base", getSalarioBase());
+		return String.format("%s%s%n%s: %.2f", "Funcionário salário base\n", super.toString(), "Salário Base", getSalarioBase());
 		
 	}
 	
