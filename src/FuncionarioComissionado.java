@@ -62,7 +62,7 @@ public class FuncionarioComissionado extends Funcionario {
 	
 	@Override
 	public String toString() {
-		return String.format("%sVendas Bruto: %.2f\nGanhos: %.2f", super.toString(), getVendasBruto(), getTaxaComissao());
+		return String.format("%sVendas Bruto: %.2f\nGanhos: %.2f\n", super.toString(), getVendasBruto(), getTaxaComissao());
 	}
 	
 	
